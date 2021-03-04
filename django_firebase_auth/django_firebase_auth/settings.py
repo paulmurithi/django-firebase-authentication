@@ -118,3 +118,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+GOOGLE_APPLICATION_CREDENTIALS = '/home/programmer/Downloads/grodigi-d809f-firebase-adminsdk-bgxm4-61f5bf15b9.json'
