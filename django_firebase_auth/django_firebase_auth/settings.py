@@ -118,6 +118,15 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'firebase_auth.authentication.FirebaseAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+    ]
+}
+
+
 STATIC_URL = '/static/'
 
 GOOGLE_APPLICATION_CREDENTIALS = '/home/programmer/Downloads/grodigi-d809f-firebase-adminsdk-bgxm4-61f5bf15b9.json'
