@@ -4,13 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
+Django = "*"
+gunicorn = "*"
 firebase-admin = "*"
-pyrebase = "*"
 djangorestframework = "*"
 
 [dev-packages]
-pytest = "*"
 pylint-django = "*"
 
 [requires]

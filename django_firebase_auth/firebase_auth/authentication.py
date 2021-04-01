@@ -89,6 +89,4 @@ class FirebaseAuthentication(BaseAuthentication):
 
         # get or create a user if doesn't exist
         user, created = get_user_model().objects.get_or_create(username=uid, phone_number=phone_number)
-        user.profile.last_activity = timezone.localtime()
-
         return (user, None)
