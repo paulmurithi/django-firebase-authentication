@@ -6,8 +6,12 @@ name = "pypi"
 [packages]
 django = "*"
 firebase-admin = "*"
+pyrebase = "*"
+djangorestframework = "*"
 
 [dev-packages]
+pytest = "*"
+pylint-django = "*"
 
 [requires]
 python_version = "3.8"

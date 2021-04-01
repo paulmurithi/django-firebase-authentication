@@ -130,4 +130,7 @@ REST_FRAMEWORK = {
 STATIC_URL = '/static/'
 
 GOOGLE_APPLICATION_CREDENTIALS = '/home/programmer/Downloads/grodigi-d809f-firebase-adminsdk-bgxm4-61f5bf15b9.json'
+FIREBASE_AUTH_HEADER_SCHEMA = 'Bearer'
+FIREBASE_ALLOW_REVOKED = False
+FIREBASE_ALLOW_UNVERIFIED_EMAIL = False
 FIREBASE_CONFIG = ''
